@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Clash Display';
+  src: 
+  url('../font/ClashDisplay-Regular.woff2') format('woff2'),
+  url('../font/ClashDisplay-Regular.woff') format('woff'),
+  url('../font/ClashDisplay-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Satoshi';
+  src: local('Satoshi Regular'), local('Satoshi-Regular'),
+      url('../font/Satoshi-Regular.woff2') format('woff2'),
+      url('../font/Satoshi-Regular.woff') format('woff'),
+      url('../font/Satoshi-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
