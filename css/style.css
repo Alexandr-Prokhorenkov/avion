@@ -381,3 +381,48 @@ justify-content: center;
   gap: 24px;
   list-style: none;
 }
+
+.price__and__likes {
+  display: flex;
+}
+
+.listing-card-price.margin {
+  margin-right: 150px;
+}
+
+.heart {
+  background-image: url('/img/heart.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 25px;
+  border: none;
+}
+
+.heart2 {
+  background-image: url('/img/heart.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 25px;
+  border: none;
+}
+
+.added {
+  background-image: url('/img/heart_add.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 25px;
+  border: none;
+}
+
+.heart .likes-number {
+  margin-left: 40px;
+  line-height: 14px;
+}
+
+.heart2 .likes-number2 {
+  margin-left: 40px;
+  line-height: 14px;
+}
