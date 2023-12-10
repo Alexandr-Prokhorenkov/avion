@@ -14,3 +14,5 @@ heart2.onclick = function () {
     likesNumer2.textContent--;} else {likesNumer2.textContent++;}
   heart2.classList.toggle('added');
 }
+
+
